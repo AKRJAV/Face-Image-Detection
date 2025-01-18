@@ -42,3 +42,13 @@ To install the required libraries, run the following commands:
 ```bash
 !pip install face_recognition
 !pip install opencv-python
+
+2. Resizing Image:
+A function resize_image is defined to resize an image to a target height while maintaining the aspect ratio:
+def resize_image(image, target_height):
+    """Resize an image to a target height while maintaining aspect ratio."""
+    h, w = image.shape[:2]
+    aspect_ratio = w / h
+    target_width = int(target_height * aspect_ratio)
+    return cv2.resize(image, (target_width, target_height))
+
