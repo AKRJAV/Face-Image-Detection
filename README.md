@@ -110,7 +110,12 @@ while True:
 
 ### **Face Identification Sample Images**
 
+Check if we are able to compare images from our processed images with uploaded images: 
+
 ## Image 1
 ![image](https://github.com/user-attachments/assets/c8e1f6b1-8f40-4961-bacd-27e83d97c7f3)
+
+## Image 2
+![image](https://github.com/user-attachments/assets/42ecd03d-231b-481f-b281-a904b5cd81ab)
 
 
